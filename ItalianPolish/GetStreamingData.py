@@ -4,10 +4,10 @@ from tweepy import Stream
 import datetime
 import csv
 
-consumer_key = 'k9WWrqCeg3xa9UYqKLqfQ7U1F'
-consumer_secret = 'ELGzLdaCgb6v7LO7tDp5S7m86GoMk9rHhX2qY99QZnOhpCzSyc'
-access_token_key = '3825593600-Y9natO1ghPc6I8EU3lY6pbVXEkdZQ6ffcNzJ51V'
-access_token_secret = 'qNBgf0J2TGwS9n6GIkAUnze0N4pcuUdDs83EPEXaTg09v'
+consumer_key = ''
+consumer_secret = ''
+access_token_key = ''
+access_token_secret = ''
 
 class StdOutListener(StreamListener):
 	def on_connect(self):
