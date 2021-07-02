@@ -8,10 +8,10 @@ import csv
 import time
 
 # Authentication and connection to Twitter API.
-consumer_key = "k9WWrqCeg3xa9UYqKLqfQ7U1F"
-consumer_secret = "ELGzLdaCgb6v7LO7tDp5S7m86GoMk9rHhX2qY99QZnOhpCzSyc"
-access_key = "3825593600-Y9natO1ghPc6I8EU3lY6pbVXEkdZQ6ffcNzJ51V"
-access_secret = "qNBgf0J2TGwS9n6GIkAUnze0N4pcuUdDs83EPEXaTg09v"
+consumer_key = " "
+consumer_secret = " "
+access_key = " "
+access_secret = " "
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
